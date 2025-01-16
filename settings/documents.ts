@@ -34,7 +34,7 @@ export const Documents: Paths[] = [
     items: [
       {
         title: "Deskripsi Proyek",
-        href: "/dekripsi_projek",
+        href: "/deskripsi_projek",
       },
       {
         title: "Teknologi Yang digunakan",

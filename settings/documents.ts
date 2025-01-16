@@ -24,23 +24,103 @@ export const Documents: Paths[] = [
     spacer: true,
   },
   {
-    title: "Navigation",
+    title: "Projek Website Terintegrasi",
     href: "/navigation",
     heading: "Documents",
   },
   {
-    title: "Structure",
+    title: "Analisis Desain Perangkat Lunak",
     href: "/structure",
     items: [
       {
-        title: "Deeper",
-        href: "/deeper",
+        title: "Analisis Kebutuhan",
+        href: "/analisis_kebutuhan",
         items : [
           {
-            title: "Even deeper",
-            href: "/even-deeper",
+            title: "Business Requirement",
+            href: "/business_requirement",
+          },
+          {
+            title: "Stakeholder Requirement",
+            href: "/stakeholder_requirement",
+          },
+          {
+            title: "System Requirement",
+            href: "/system_requirement",
+          },
+          {
+            title: "Software Requirement",
+            href: "/software_requirement",
           },
         ]
+      },
+      {
+        title: "Diagram",
+        href: "/diagram",
+        items : [
+          {
+            title: "Use Case Diagram",
+            href: "/use_case_diagram",
+          },
+          {
+            title: "Class Diagram",
+            href: "/class_diagram",
+          },
+          {
+            title: "Flowchart",
+            href: "/flowchart",
+          },
+        ]
+      },
+    ],
+  },
+  {
+    title: "Perancangan Antarmuka",
+    href: "/perancangan_antarmuka",
+    items: [
+      {
+        title: "Dokumen Desain",
+        href: "/dokumen_desain",
+        items : [
+          {
+            title: "Sketsa Awal",
+            href: "/sketsa_awal",
+          },
+          {
+            title: "Prototipe",
+            href: "/prototipe",
+          },
+        ]
+      },
+    ],
+  },
+  {
+    title: "Metode Pengembangan Perangkat Lunak",
+    href: "/metode_pengembangan_perangkat_lunak",
+    items: [
+      {
+        title: "Metode SDLC",
+        href: "/metode_sdlc",
+        items : [
+          {
+            title: "Analisis Kebutuhan",
+            href: "/analisis_kebutuhan",
+          },
+          {
+            title: "Diagram UML",
+            href: "/diagram_uml",
+          },
+        ]
+      },
+    ],
+  },
+  {
+    title: "Dokumentasi Penggunaan Website",
+    href: "/dokumentasi_penggunaan_website",
+    items: [
+      {
+        title: "Panduan Penggunaan Website",
+        href: "/panduan_penggunaan_website",
       },
     ],
   },

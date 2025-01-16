@@ -29,6 +29,22 @@ export const Documents: Paths[] = [
     heading: "Documents",
   },
   {
+    title: "Pendahuluan",
+    href: "/pendahuluan",
+    items: [
+      {
+        title: "Deskripsi Proyek",
+        href: "/dekripsi_projek",
+      },
+      {
+        title: "Teknologi Yang digunakan",
+        href: "/teknologi_yang_digunakan",
+      },
+      {
+        title: "Keterkaitan Matkul",
+        href: "/keterkaitan_matkul",
+      },
+  {
     title: "Analisis Desain Perangkat Lunak",
     href: "/structure",
     items: [

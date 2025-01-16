@@ -44,6 +44,8 @@ export const Documents: Paths[] = [
         title: "Keterkaitan Matkul",
         href: "/keterkaitan_matkul",
       },
+    ]
+  },
   {
     title: "Analisis Desain Perangkat Lunak",
     href: "/structure",

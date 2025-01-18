@@ -38,7 +38,7 @@ export const Documents: Paths[] = [
       },
       {
         title: "Teknologi yang Digunakan",
-        href: "/teknologiyang_digunakan",
+        href: "/teknologi_yang_digunakan",
       },
     ],
   },

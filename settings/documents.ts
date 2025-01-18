@@ -43,50 +43,50 @@ export const Documents: Paths[] = [
     ],
   },
   {
-    title: "Analisis dan Desain Perangkat Lunak",
-    href: "/analisis_desain",
-    items: [
+    "title": "Analisis dan Desain Perangkat Lunak",
+    "href": "/analisis_desain",
+    "items": [
       {
-        title: "Analisis Kebutuhan",
-        href: "/analisisk_ebutuhan",
-        items: [
+        "title": "Analisis Kebutuhan",
+        "href": "/analisis_kebutuhan",
+        "items": [
           {
-            title: "Business Requirement",
-            href: "/businessr_equirement",
+            "title": "Business Requirement",
+            "href": "/business_requirement"
           },
           {
-            title: "Stakeholder Requirement",
-            href: "/stakeholderr_equirement",
+            "title": "Stakeholder Requirement",
+            "href": "/stakeholder_requirement"
           },
           {
-            title: "System Requirement",
-            href: "/systemr_equirement",
+            "title": "System Requirement",
+            "href": "/system_requirement"
           },
           {
-            title: "Software Requirement",
-            href: "/softwarer_equirement",
-          },
-        ],
+            "title": "Software Requirement",
+            "href": "/software_requirement"
+          }
+        ]
       },
       {
-        title: "Diagram",
-        href: "/diagram",
-        items: [
+        "title": "Diagram",
+        "href": "/diagram",
+        "items": [
           {
-            title: "Use Case Diagram",
-            href: "/use_case_diagram",
+            "title": "Use Case Diagram",
+            "href": "/use_case_diagram"
           },
           {
-            title: "Class Diagram",
-            href: "/class_diagram",
+            "title": "Class Diagram",
+            "href": "/class_diagram"
           },
           {
-            title: "Flowchart",
-            href: "/flowchart",
-          },
-        ],
-      },
-    ],
+            "title": "Flowchart",
+            "href": "/flowchart"
+          }
+        ]
+      }
+    ]
   },
   {
     title: "Perancangan dan Antarmuka",

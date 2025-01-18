@@ -60,7 +60,7 @@ export const Documents: Paths[] = [
           },
           {
             "title": "System Requirement",
-            "href": "system_requirement",
+            "href": "/system_requirement",
           },
           {
             "title": "Software Requirement",

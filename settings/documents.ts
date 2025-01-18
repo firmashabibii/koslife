@@ -202,7 +202,7 @@ export const Documents: Paths[] = [
     items: [
       {
         title: "Implementasi Setiap Tahapan",
-        href: "/tahap",
+        href: "/penjelasanmetode",
       },
       {
         title: "Implementasi Setiap Tahapan",

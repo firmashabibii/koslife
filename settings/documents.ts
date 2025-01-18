@@ -192,7 +192,7 @@ export const Documents: Paths[] = [
     items: [
       {
         title: "Panduan Penggunaan Website",
-        href: "/deeper",
+        href: "/de_per",
       },
     ],
   },
@@ -206,7 +206,7 @@ export const Documents: Paths[] = [
       },
       {
         title: "Alasan Memilih Metode",
-        href: "/alasanmetode",
+        href: "/alasan_metode",
       },
       {
         title: "Implementasi Setiap Tahapan",

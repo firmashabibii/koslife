@@ -56,7 +56,7 @@ export const Documents: Paths[] = [
           },
           {
             "title": "Stakeholder Requirement",
-            "href": "/Stakeholder_requirement",
+            "href": "/stakeholder_requirement",
           },
           {
             "title": "System Requirement",

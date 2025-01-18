@@ -1,0 +1,50 @@
+---
+title: Struktur Basis Data
+
+description: Menggunakan Mysql dan Database XAMPP
+---
+
+Untuk melihat atau menyimpan data-data User ataupun Admin dari website atau aplikasi ini saya menggunakan Mysql atau XAMPP
+
+## Table structure for table `userf`
+CREATE TABLE `userf` (
+  `id` int(11) NOT NULL,
+  `username` varchar(50) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+## Table structure for table `kategori`
+CREATE TABLE `kategori` (
+  `id_kategori` int(11) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `amount` decimal(10,2) NOT NULL,
+  `type` enum('pemasukan','pengeluaran') NOT NULL,
+  `date` date NOT NULL,
+  `user_id` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+## Table structure for table `goals`
+CREATE TABLE `goals` (
+  `id_goals` int(11) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `target_amount` decimal(10,2) NOT NULL,
+  `current_amount` decimal(10,2) NOT NULL,
+  `deadline` date NOT NULL,
+  `user_id` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+## Table structure for table `keluhan`
+CREATE TABLE `keluhan` (
+  `id_keluhan` int(11) NOT NULL,
+  `description` text NOT NULL,
+  `user_id` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+## Table structure for table `admins`
+CREATE TABLE `admins` (
+  `id` int(11) NOT NULL,
+  `username` varchar(50) NOT NULL,
+  `password` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;

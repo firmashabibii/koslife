@@ -52,11 +52,11 @@ export const Documents: Paths[] = [
         "items": [
           {
             "title": "Business Requirement",
-            "href": "/business_requirement"
+            "href": "/business_requirement",
           },
           {
             "title": "Stakeholder Requirement",
-            "href": "/Stakeholder_requirement"
+            "href": "/Stakeholder_requirement",
           },
           {
             "title": "System Requirement",

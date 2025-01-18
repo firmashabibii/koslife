@@ -202,11 +202,11 @@ export const Documents: Paths[] = [
     items: [
       {
         title: "Penjelasan Metode yang Digunakan",
-        href: "/penjelasan-metode",
+        href: "/penjelasanmetode",
       },
       {
         title: "Alasan Memilih Metode",
-        href: "/alasan-metode",
+        href: "/alasanmetode",
       },
       {
         title: "Implementasi Setiap Tahapan",
